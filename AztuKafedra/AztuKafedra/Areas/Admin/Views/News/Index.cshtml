@@ -1,0 +1,30 @@
+﻿@model IEnumerable<News>
+<div class="container">
+    <a class="btn btn-primary" asp-action="Create">Create</a>
+    <table class="table table-bordered table-responsive">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Image</th>
+                <th>ViewCount</th>
+                <th>Category</th>
+                <th colspan="2">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in (Model ?? new List<News>()))
+            {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>@item.Description</td>
+                    <td><img src="~/image/News/@item.ImagePath" /></td>
+                    <td>@item.ViewCount</td>
+                    <td>@item.ChildCategory.Name</td>
+                    <td><a class="btn btn-warning" asp-action="Update" asp-route-id="@item.Id">Update</a></td>
+                    <td><a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

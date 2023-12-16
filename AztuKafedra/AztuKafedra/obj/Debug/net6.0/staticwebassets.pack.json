@@ -1,0 +1,477 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AztuKafedra.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AztuKafedra.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\assets\\17ceb003\\yii.activeForm.js",
+      "PackagePath": "staticwebassets\\KafedraAssets\\assets\\17ceb003\\yii.activeForm.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\assets\\17ceb003\\yii.js",
+      "PackagePath": "staticwebassets\\KafedraAssets\\assets\\17ceb003\\yii.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\assets\\17ceb003\\yii.validation.js",
+      "PackagePath": "staticwebassets\\KafedraAssets\\assets\\17ceb003\\yii.validation.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\assets\\64a87b1e\\toastr.min.css",
+      "PackagePath": "staticwebassets\\KafedraAssets\\assets\\64a87b1e\\toastr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\assets\\64a87b1e\\toastr.min.js",
+      "PackagePath": "staticwebassets\\KafedraAssets\\assets\\64a87b1e\\toastr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\assets\\91264357\\jquery.inputmask.bundle.js",
+      "PackagePath": "staticwebassets\\KafedraAssets\\assets\\91264357\\jquery.inputmask.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\assets\\a079e004\\css\\bootstrap.css.tmp",
+      "PackagePath": "staticwebassets\\KafedraAssets\\assets\\a079e004\\css\\bootstrap.css.tmp"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\assets\\a079e004\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\KafedraAssets\\assets\\a079e004\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\assets\\e0526bb1\\css\\activeform.min.css.tmp",
+      "PackagePath": "staticwebassets\\KafedraAssets\\assets\\e0526bb1\\css\\activeform.min.css.tmp"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\assets\\e0526bb1\\js\\activeform.min.js",
+      "PackagePath": "staticwebassets\\KafedraAssets\\assets\\e0526bb1\\js\\activeform.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\assets\\ed3a6040\\yii2-pdfjs.js",
+      "PackagePath": "staticwebassets\\KafedraAssets\\assets\\ed3a6040\\yii2-pdfjs.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\cdn.jsdelivr.net\\npm\\bootstrap@5.0.0-beta2\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\KafedraAssets\\cdn.jsdelivr.net\\npm\\bootstrap@5.0.0-beta2\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\cdnjs.cloudflare.com\\ajax\\libs\\popper.js\\1.12.9\\umd\\popper.min.js",
+      "PackagePath": "staticwebassets\\KafedraAssets\\cdnjs.cloudflare.com\\ajax\\libs\\popper.js\\1.12.9\\umd\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\KafedraAssets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\css\\custom.css",
+      "PackagePath": "staticwebassets\\KafedraAssets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\css\\effects.css.tmp",
+      "PackagePath": "staticwebassets\\KafedraAssets\\css\\effects.css.tmp"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\css\\fancybox.css",
+      "PackagePath": "staticwebassets\\KafedraAssets\\css\\fancybox.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\css\\fonts.css.tmp",
+      "PackagePath": "staticwebassets\\KafedraAssets\\css\\fonts.css.tmp"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\css\\img\\png\\moodle.html.tmp",
+      "PackagePath": "staticwebassets\\KafedraAssets\\css\\img\\png\\moodle.html.tmp"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\css\\main.css",
+      "PackagePath": "staticwebassets\\KafedraAssets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\css\\my.css",
+      "PackagePath": "staticwebassets\\KafedraAssets\\css\\my.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\KafedraAssets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\css\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\KafedraAssets\\css\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\1.png",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\background\\2153809.jpg",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\background\\2153809.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\background\\bgpattern.jpg",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\background\\bgpattern.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\background\\labaratoriya.jpg",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\background\\labaratoriya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\background\\post.jpg",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\background\\post.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\background\\registon.jpg",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\background\\registon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\flags\\en.png",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\flags\\en.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\flags\\ru.png",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\flags\\ru.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\flags\\uzbFlag.svg",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\flags\\uzbFlag.svg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\hemisorg.png",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\hemisorg.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\kutubxona.jpg",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\kutubxona.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\moodle2.png",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\moodle2.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\png\\gerb.png",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\png\\gerb.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\ruFlag.html",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\ruFlag.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\scopus.jpg",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\scopus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\svg\\call.svg",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\svg\\call.svg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\svg\\mappin.svg",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\svg\\mappin.svg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\svg\\sms.svg",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\svg\\sms.svg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\svg\\uzbFlag.svg",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\svg\\uzbFlag.svg"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\img\\usaFlag.html",
+      "PackagePath": "staticwebassets\\KafedraAssets\\img\\usaFlag.html"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\js\\OwlCarousel2\\dist\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\KafedraAssets\\js\\OwlCarousel2\\dist\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\js\\OwlCarousel2\\dist\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\KafedraAssets\\js\\OwlCarousel2\\dist\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\js\\OwlCarousel2\\dist\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\KafedraAssets\\js\\OwlCarousel2\\dist\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\KafedraAssets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\js\\fancy.js",
+      "PackagePath": "staticwebassets\\KafedraAssets\\js\\fancy.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\KafedraAssets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\js\\script.js",
+      "PackagePath": "staticwebassets\\KafedraAssets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\js\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\KafedraAssets\\js\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\releases\\v5.10.0\\css\\all.css",
+      "PackagePath": "staticwebassets\\KafedraAssets\\releases\\v5.10.0\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\KafedraAssets\\stackpath.bootstrapcdn.com\\bootstrap\\4.3.1\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\KafedraAssets\\stackpath.bootstrapcdn.com\\bootstrap\\4.3.1\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sahin\\Desktop\\KafedraAztuFrontBack\\AztuKafedra\\AztuKafedra\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AztuKafedra.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.AztuKafedra.props",
+      "PackagePath": "build\\AztuKafedra.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.AztuKafedra.props",
+      "PackagePath": "buildMultiTargeting\\AztuKafedra.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.AztuKafedra.props",
+      "PackagePath": "buildTransitive\\AztuKafedra.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

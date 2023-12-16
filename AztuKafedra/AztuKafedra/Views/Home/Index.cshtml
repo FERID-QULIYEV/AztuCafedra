@@ -1,0 +1,496 @@
+﻿@using AztuKafedra.ViewModel
+@model HomeVM
+<section class="header">
+<div class="swiper-container mySwiper">
+    <div class="swiper-wrapper">
+        @foreach (var item in Model.Sliders)
+        {
+                <div class="swiper-slide " style=" background-image: url(image/ImageSlider/@item.ImagePath);">
+            <div class="slider_info_wrapper">
+                <h2 class="slide-title" style="color: #fff !important;"></h2>
+                <a class="more_info" href="events/201.html">Daha Cox</a>
+            </div>
+
+        </div>
+        }
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+</div>
+
+</section>
+<div class="yangilik_lar">
+    <div class="container yangiliklar_wrapper">
+        <div class="yangiliklar_items owl-carousel row-lg">
+         @*    @foreach (var item in Model)
+            {
+                
+            } *@
+                @foreach (var item in Model.News)
+                {
+            <div class="yangiliklar_item item  col-lg-3  col-md-3 .container-fluid">
+                    <div class="item_img">
+                        <img src="~/image/News/@item.ImagePath">
+                    </div>
+                    <div class="yangiliklar_item_info">
+                        <a href="news/71/institut-yangiliklari.html"
+                           style="color: #333333"
+                           class="yangiliklar_item_info_text">@item.ChildCategory.ParentCategory.BigParentsCategory.Name</a>
+                        <p class="yangiliklar_item_date"><i class="far fa-clock"></i>@item.DateTime</p>
+                    </div>
+                    <div class="yangiliklar_item_content">
+                        <h3 class="yangiliklar_item_title">@item.Title                                ...</h3>
+                        <a href="detail/navbatdagi-ilmiy-kengash49b4.html?menu_id=71"
+                           class="yangiliklar_item_text" style="color: #333">@item.Description
+                        </a>
+                    </div>
+                    <div class="yangiliklar_item_more">
+                        <a asp-controller="Home" asp-action="News"
+                           class="more_info">
+                            Daha Cox <i class="fas fa-angle-right"></i>
+                        </a>
+                        <p class="info_view"><i class="far fa-eye"></i>@item.ViewCount</p>
+                    </div> 
+            </div>
+                }
+           
+        </div>
+        <a href="site/all.html" class="all_news"
+           style="text-align: center">Hamisi</a>
+    </div>
+</div>
+<!-- Yangiliklar ends -->
+<!-- About us -->
+<section class="about">
+    <div class="row d-flex align-center">
+        <div class="video-content" style=" background-image: url(uploads/img/corusel/photo_2021-05-11_10-01-43.html);">
+            <a data-fancybox="single" href="https://www.youtube.com/embed/https://www.youtube.com/watch?v=amKibGwy9eU" class="playBut">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                     xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="180px"
+                     height="180px" viewBox="0 0 213.7 213.7" enable-background="new 0 0 213.7 213.7"
+                     xml:space="preserve">
+                <polygon class="triangle" id="XMLID_18_" fill="none" stroke-width="7" stroke-linecap="round"
+                         stroke-linejoin="round" stroke-miterlimit="10"
+                         points="  73.5,62.5 148.5,105.8 73.5,149.1 "></polygon>
+                <circle class="circle" id="XMLID_17_" fill="none" stroke-width="7" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-miterlimit="10" cx="106.8" cy="106.8" r="103.3"></circle>
+                </svg>
+            </a>
+        </div>
+        <div class="text-content">
+            <h2 style="text-align: center;font-size: 20px">
+                FARG‘ONA JAMOAT SALOMATLIGI TIBBIYOT INSTITUTINI TASHKIL ETISH...
+            </h2>
+            <div class="about-body">
+                O&lsquo;ZBEKISTON RESPUBLIKASI PREZIDENTINING
+
+                QARORI
+
+                FARG&lsquo;ONA JAMOAT SALOMATLIGI TIBBIYOT INSTITUTINI TASHKIL ETISH TO&lsquo;G&lsquo;RISIDA
+
+                &nbsp;
+
+                Sog&lsquo;liqni saqlash, sanitariya-epidemiologik osoyishtalik va jamoat salomatligi sohasida yuqori malakaga ega oliy ma&rsquo;lumotli kadrlarni tayyorlash, xodimlarni kasbiy...
+
+            </div>
+            <a href="about/fargona-jamoat-salomatligi-tibbiyot-institutini-tashkil-etish-togrisida.html"
+               class="btn_readMore">Daha Cox</a>
+            <a href="site/virtual-reception.html"
+               class="btn_borderBlue">Bog'lanish</a>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <div class="cards res-none">
+            <div class="row counter">
+                <div class="px-0 col-lg-3 col-md-3 col-sm-12">
+                    <div class="card-item">
+                        <span class="fas fa-user-tie"></span>
+                        <div class="count" data-count="267">0</div>
+                        <h4 class="size15 text-center mt-2">Professor o`qituvchilar</h4>
+                    </div>
+                </div>
+                <div class="px-0 col-lg-3 col-md-3 col-sm-12">
+                    <div class="card-item">
+                        <span class="fas fa-users"></span>
+                        <div class="count" data-count="4421">0</div>
+                        <h4 class="size15 text-center mt-2">Talabalar</h4>
+                    </div>
+                </div>
+                <div class="px-0 col-lg-3 col-md-3 col-sm-12">
+                    <div class="card-item">
+                        <span class="fas fa-graduation-cap"></span>
+                        <div class="count" data-count="100">0</div>
+                        <h4 class="size15 text-center mt-2">Bitiruvchilar</h4>
+                    </div>
+                </div>
+                <div class="px-0 col-lg-3 col-md-3 col-sm-12">
+                    <div class="card-item">
+                        <span class="fas fa-book"></span>
+                        <div class="count" data-count="27830">0</div>
+                        <h4 class="size15 text-center mt-2">Kitob fondi</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards desk-none owl-carousel" id="card-carousel">
+            <div class="card-item">
+                <span class="fas fa-user-tie"></span>
+                <div class="counter">267</div>
+                <h4 class="size15 text-center mt-2">Professor o`qituvchilar</h4>
+            </div>
+            <div class="card-item">
+                <span class="fas fa-users"></span>
+                <div class="counter">4421</div>
+                <h4 class="size15 text-center mt-2">Talabalar</h4>
+            </div>
+            <div class="card-item">
+                <span class="fas fa-graduation-cap"></span>
+                <div class="counter">100</div>
+                <h4 class="size15 text-center mt-2">Bitiruvchilar</h4>
+            </div>
+            <div class="card-item">
+                <span class="fas fa-book"></span>
+                <div class="counter"></div>
+                <h4 class="size15 text-center mt-2">Kitob fondi</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="interactive" style="margin-top: 250px">
+    <h2 style="text-transform: uppercase;text-align: center;color: #000064;">Interaktiv xizmatlar</h2>
+    <main class="container">
+
+        <div class="interactive_items">
+            <a href="site/virtual-reception.html" class="interactive_item">
+                <img src="img/1.png" alt="icon1">
+                <h2 class="item_title"
+                    style="text-transform: uppercase">
+                    Virtual qabulxona
+                </h2>
+            </a>
+            <a href="http://moodle.fjsti.uz/login/index.php" class="interactive_item">
+                <img src="img/moodle2.png" alt="icon1">
+                <h2 class="item_title"
+                    style="text-transform: uppercase">
+                    MASOFAVIY TA'LIM
+                </h2>
+            </a>
+            <a href="http://hemis.fjsti.uz/" class="interactive_item">
+                <img src="img/hemisorg.png" alt="icon1">
+                <h2 class="item_title"
+                    style="text-transform: uppercase">
+                    MASOFAVIY TA'LIMNI BOSHQARISH TIZIMI
+                </h2>
+            </a>
+            <a href="http://e-library.fjsti.uz/" class="interactive_item">
+                <img src="img/kutubxona.jpg" alt="icon1">
+                <h2 class="item_title"
+                    style="text-transform: uppercase">
+                    Elektron kutubxona
+                </h2>
+            </a>
+            <a href="https://www.scopus.com/standard/marketing.uri" class="interactive_item">
+                <img src="img/scopus.jpg" alt="icon1">
+                <h2 class="item_title" style="text-transform: uppercase">Scopus</h2>
+            </a>
+
+        </div>
+    </main>
+</section>
+<section class="fakultetlar">
+    <div class="container">
+        <div class="fak-title">
+         
+            <h2 style="text-transform: uppercase;">Fakültələr</h2>
+        </div>
+        <div class="w-100 swiper-container mySwiper2">
+            <div class="swiper-wrapper">
+                @foreach (var item in Model.ChildCategories.Where(x => x.ParentCategory.Name == "Fakültələr"))
+                {
+                    <div class="swiper-slide">
+                        <div class="card w-100">
+                            <div class="card-head">
+                                <div class="overlay-card">
+                                    <a asp-route-id="@item.Id" asp-controller="Home" asp-action="Fakulteler" class="btn btn-more">Daha Cox</a>
+                                </div>
+                                <img src="~/image/ChildImage/@item.ImagePath" alt="" class="card-img-top">
+                            </div>
+                        </div>
+                        <div class="card-body w-100">
+                            <h4 class="text-center">@item.Name</h4>
+                        </div>
+                    </div>
+                }
+
+           
+             
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <section class="swiper-container mySwiper2">
+        <h2 style="text-transform: uppercase;text-align: center;color: #000064;">Kafedra</h2>
+        
+        @foreach (var item in Model.ChildCategories.Where(x => x.ParentCategory.Name == "Kafedra"))
+        {
+            <div class="swiper-wrapper ">
+                <a asp-route-id="@item.Id" asp-controller="Home" asp-action="Kafedra"
+                    class="swiper-slide">
+                    <img src="~/image/ChildImage/@item.ImagePath" alt="6">
+                    <h3>@item.Name</h3>
+                </a>
+            </div>
+        }
+
+        <div class="swiper-pagination"></div>
+    </section>
+</div>
+
+<div class="media-block" style="margin-top: 80px">
+    <div class="container">
+        <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a href="#pills-photomedia" role="tab" aria-controls="pills-photomedia" aria-selected="true"
+                   class="nav-link active" id="pills-photomedia-tab" data-toggle="pill"
+                   style="color: #000064;">Videomateriallar</a>
+            </li>
+            <li class="nav-item">
+                <a href="#pills-videomedia" role="tab" aria-controls="pills-videomedia" aria-selected="true"
+                   class="nav-link" id="pills-videmedia-tab" data-toggle="pill"
+                   style="color: #000064;">Fotogalareya</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active oz " id="pills-photomedia" role="tabpanel"
+                 aria-labelledby="pills-photomedia-tab">
+                <div class="newsLinks">
+                    <a href="video.html"> BARCHASI</a>
+                </div>
+                <div class="videoCarousel owl-carousel" id="gallery">
+
+                    <div class="col-sm-12 col-lg-12" style="height:220px">
+                        <video src="uploads/img/yangilikar/video/Vil%20hokimi/Tibbiyotchila%20yeg%27ilishi.mp4" style="width: 100%" height="100%"
+                               controls="true"></video>
+                    </div>
+                    <div class="col-sm-12 col-lg-12" style="height:220px">
+                        <video src="uploads/img/yangilikar/video/Belarus-2023/Ruscha_telegram.mp4" style="width: 100%" height="100%"
+                               controls="true"></video>
+                    </div>
+                    <div class="col-sm-12 col-lg-12" style="height:220px">
+                        <video src="uploads/img/yangilikar/video/Belarus-2023/2.mp4" style="width: 100%" height="100%"
+                               controls="true"></video>
+                    </div>
+                    <div class="col-sm-12 col-lg-12" style="height:220px">
+                        <video src="uploads/img/yangilikar/video/Qasamyod-2023/video_2023-11-22_00-18-02.mp4" style="width: 100%" height="100%"
+                               controls="true"></video>
+                    </div>
+                    <div class="col-sm-12 col-lg-12" style="height:220px">
+                        <video src="uploads/img/yangilikar/video/Konferensiya/video_2023-11-20_17-31-56.mp4" style="width: 100%" height="100%"
+                               controls="true"></video>
+                    </div>
+                    <div class="col-sm-12 col-lg-12" style="height:220px">
+                        <video src="uploads/img/yangilikar/video/Bayroq/IMG_2613.MP4" style="width: 100%" height="100%"
+                               controls="true"></video>
+                    </div>
+                    <div class="col-sm-12 col-lg-12" style="height:220px">
+                        <video src="uploads/img/yangilikar/video/Brifing/video_2023-10-24_14-24-37.mp4" style="width: 100%" height="100%"
+                               controls="true"></video>
+                    </div>
+                    <div class="col-sm-12 col-lg-12" style="height:220px">
+                        <video src="uploads/img/yangilikar/video/Laboratoriya/Labaratoriya.mp4" style="width: 100%" height="100%"
+                               controls="true"></video>
+                    </div>
+                    <div class="col-sm-12 col-lg-12" style="height:220px">
+                        <video src="uploads/img/yangilikar/video/FNKSR%20NIIOR/%d0%a0%d0%98%d0%9d%d0%a6.mp4" style="width: 100%" height="100%"
+                               controls="true"></video>
+                    </div>
+                    <div class="col-sm-12 col-lg-12" style="height:220px">
+                        <video src="uploads/img/yangilikar/video/FNKSR%20NIIOR/video_2023-07-21_23-05-46.mp4" style="width: 100%" height="100%"
+                               controls="true"></video>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-videomedia" role="tabpanel" aria-labelledby="pills-videomedia-tab">
+                <div class="newsLinks">
+                    <a href="galereya.html"> BARCHASI</a>
+                </div>
+                <div class="PhotoCarousel owl-carousel" id="gallery2">
+                    <div class="col-lg-12">
+                        <figure style="height: 250px">
+                            <a href="uploads/img/photo_2021-11-02_12-32-06%20(3).jpg" data-fancybox="fig">
+                                <img src="uploads/img/photo_2021-11-02_12-32-06%20(3).jpg"
+                                     style="height: 100%;width: 100%;object-fit: cover" alt="Picture" />
+                            </a>
+                            <figcaption style="display: none">
+                                <a href="full-gallery/-8.html"></a>.
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <figure style="height: 250px">
+                            <a href="uploads/img/photo_2021-11-01_17-17-50.jpg" data-fancybox="fig">
+                                <img src="uploads/img/photo_2021-11-01_17-17-50.jpg"
+                                     style="height: 100%;width: 100%;object-fit: cover" alt="Picture" />
+                            </a>
+                            <figcaption style="display: none">
+                                <a href="full-gallery/-7.html"></a>.
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <figure style="height: 250px">
+                            <a href="uploads/img/photo_2021-11-01_17-17-49.jpg" data-fancybox="fig">
+                                <img src="uploads/img/photo_2021-11-01_17-17-49.jpg"
+                                     style="height: 100%;width: 100%;object-fit: cover" alt="Picture" />
+                            </a>
+                            <figcaption style="display: none">
+                                <a href="full-gallery/-5.html"></a>.
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <figure style="height: 250px">
+                            <a href="uploads/img/photo_2021-11-01_11-16-02.jpg" data-fancybox="fig">
+                                <img src="uploads/img/photo_2021-11-01_11-16-02.jpg"
+                                     style="height: 100%;width: 100%;object-fit: cover" alt="Picture" />
+                            </a>
+                            <figcaption style="display: none">
+                                <a href="full-gallery/-3.html"></a>.
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <figure style="height: 250px">
+                            <a href="uploads/img/photo_2021-11-01_17-17-46.jpg" data-fancybox="fig">
+                                <img src="uploads/img/photo_2021-11-01_17-17-46.jpg"
+                                     style="height: 100%;width: 100%;object-fit: cover" alt="Picture" />
+                            </a>
+                            <figcaption style="display: none">
+                                <a href="full-gallery/-2.html"></a>.
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <figure style="height: 250px">
+                            <a href="uploads/img/yangilikar/photo_2021-10-01_22-20-46.jpg" data-fancybox="fig">
+                                <img src="uploads/img/yangilikar/photo_2021-10-01_22-20-46.jpg"
+                                     style="height: 100%;width: 100%;object-fit: cover" alt="Picture" />
+                            </a>
+                            <figcaption style="display: none">
+                                <a href="full-gallery.html"></a>.
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <figure style="height: 250px">
+                            <a href="uploads/img/yangilikar/2.jpg" data-fancybox="fig">
+                                <img src="uploads/img/yangilikar/2.jpg"
+                                     style="height: 100%;width: 100%;object-fit: cover" alt="Picture" />
+                            </a>
+                            <figcaption style="display: none">
+                                <a href="full-gallery/30-sentabr-institut-faoliyatidagi-tarihiy-sanalardan-biriga-aylandi.html">30-sentabr institut faoliyatidagi tarihiy sanalardan biriga aylandi</a>.
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <figure style="height: 250px">
+                            <a href="uploads/img/rector.jpg" data-fancybox="fig">
+                                <img src="uploads/img/rector.jpg"
+                                     style="height: 100%;width: 100%;object-fit: cover" alt="Picture" />
+                            </a>
+                            <figcaption style="display: none">
+                                <a href="full-gallery/rektor-va-yoshlar-uchrashuvi.html">Rektor va yoshlar uchrashuvi</a>.
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <figure style="height: 250px">
+                            <a href="uploads/img/photo_2021-09-01_22-22-15.jpg" data-fancybox="fig">
+                                <img src="uploads/img/photo_2021-09-01_22-22-15.jpg"
+                                     style="height: 100%;width: 100%;object-fit: cover" alt="Picture" />
+                            </a>
+                            <figcaption style="display: none">
+                                <a href="full-gallery/bayram-tuhfasi.html">Bayram tuhfasi </a>.
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <figure style="height: 250px">
+                            <a href="uploads/img/%d1%81%d0%b8%d0%b4%d0%b8%d0%ba%d0%be%d0%b2-min.jpg" data-fancybox="fig">
+                                <img src="uploads/img/%d1%81%d0%b8%d0%b4%d0%b8%d0%ba%d0%be%d0%b2-min.jpg"
+                                     style="height: 100%;width: 100%;object-fit: cover" alt="Picture" />
+                            </a>
+                            <figcaption style="display: none">
+                                <a href="full-gallery/rektor-delegatsiyasi.html">Rektor delegatsiyasi</a>.
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <figure style="height: 250px">
+                            <a href="uploads/img/imges/photo_2021-06-19_18-44-58.html" data-fancybox="fig">
+                                <img src="uploads/img/imges/photo_2021-06-19_18-44-58.html"
+                                     style="height: 100%;width: 100%;object-fit: cover" alt="Picture" />
+                            </a>
+                            <figcaption style="display: none">
+                                <a href="full-gallery/yoshlar-festivali-2.html">Yoshlar festivali                                                                     </a>.
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <figure style="height: 250px">
+                            <a href="uploads/img/imges/23.html" data-fancybox="fig">
+                                <img src="uploads/img/imges/23.html"
+                                     style="height: 100%;width: 100%;object-fit: cover" alt="Picture" />
+                            </a>
+                            <figcaption style="display: none">
+                                <a href="full-gallery/yoshlar-festivali.html">Yoshlar festivali                                                                     </a>.
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="usefull ">
+    <div class="container">
+        <h2 class="py-2" style="color: #000064">Faydali mənbələr</h2>
+        <div class="owl-carousel" id="use-carousel">
+            <a href="https://ssv.uz/uz" class="use-item">
+                <img src="uploads/img/logo/%d0%91%d0%b5%d0%b7%20%d0%bd%d0%b0%d0%b7%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f.html" alt="">
+                <h3 style="color: #000064">Azerbaycan Respublikasi Sog`liqni saqlash vazirligi</h3>
+            </a>
+            <a href="https://president.uz/uz" class="use-item">
+                <img src="uploads/img/useful/prezident_sayt.png" alt="">
+                <h3 style="color: #000064">Azerbaycan Respublikasi Prezidenti</h3>
+            </a>
+            <a href="https://lex.uz/" class="use-item">
+                <img src="uploads/img/useful/lex.uz.png" alt="">
+                <h3 style="color: #000064">Azerbaycan RESPUBLIKASI qonun hujjatlari ma'lumotlar bazasi</h3>
+            </a>
+            <a href="https://gov.uz/uz" class="use-item">
+                <img src="uploads/img/useful/gov_uz.png" alt="">
+                <h3 style="color: #000064">Azerbaycan RESPUBLIKASI hukumat portali</h3>
+            </a>
+            <a href="https://edu.uz/uz" class="use-item">
+                <img src="uploads/img/logo/logo.html" alt="">
+                <h3 style="color: #000064">Azerbaycan RESPUBLIKASI Oliy va o`rta maxsus ta'lim vazirligi</h3>
+            </a>
+        </div>
+    </div>
+</section>

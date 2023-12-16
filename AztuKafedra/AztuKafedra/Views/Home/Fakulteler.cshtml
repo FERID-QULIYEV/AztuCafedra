@@ -1,0 +1,175 @@
+﻿@using AztuKafedra.ViewModel
+@model HomeVM
+
+@{
+    var defaultContent = "<h2>Standart İçerik</h2><p>Standart içerik açıklaması.</p>";
+}
+<header class="header_section">
+    <h1 class="title" style="max-width: 500px;text-align: center;color: white!important;">@Model.SelectedChildCategory?.Name</h1>
+    <div class="map_site">
+        <a href="../../uz.html" class="main_page_link">Home Page</a>
+        <p class="this_page" style="max-width: 540px"> <i class="fas fa-angle-double-right"></i>@Model.SelectedChildCategory?.Name</p>
+    </div>
+</header>
+<section class="page-content pb-5">
+    <div class="page-content-section py-4">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2 style="text-align: center;color: #000064">@Model.SelectedChildCategory?.Name</h2><br>
+                    <div style="text-align: center;"><strong><span style="font-family:tahoma,geneva,sans-serif"><span style="font-size:16px"><span style="color:#0000CD">@Model.SelectedChildCategory.Title.</span></span></span></strong></div>
+
+                    <p style="text-align:justify"><span style="font-size:14px"><span style="font-family:tahoma,geneva,sans-serif">@Model.SelectedChildCategory.Title</span></span></p>
+
+                  
+                </div>
+                <div class="col-lg-4 sidebar">
+                    <ul class="main-menu__list">
+                        <li style="background: red!important;"><a href="#">@Model.SelectedChildCategory.ParentCategory.BigParentsCategory.Name</a>
+                        
+                            @if (Model.SelectedChildCategory != null &&
+                            Model.SelectedChildCategory.ParentCategory != null &&
+                            Model.SelectedChildCategory.ParentCategory.BigParentsCategory != null)
+                            {
+                                var bigParentsCategory = Model.SelectedChildCategory.ParentCategory.BigParentsCategory;
+                                foreach (var parentCategory in bigParentsCategory.ParentCategories)
+                                {
+                                    <a href="#">@parentCategory.Name</a>
+                                }
+                            }
+                            else
+                            {
+                                <span>Parent Category veya Big Parents Category bulunamadı</span>
+                            }
+                        </li>
+
+                       
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="rahbariyat" style="margin-top: -60px">
+    <main class="container">
+        <div class="rahbariyat_menu col-md-3 col-sm-3">
+        </div>
+       
+         @if (Model.SelectedChildCategory != null)
+        {
+            @foreach (var item in Model.SelectedChildCategory.Users)
+            {
+                <div class="info_block col-md-9 col-sm-9">
+
+                    <div class="info_block_persons ">
+                        <div class="info_block_person">
+                            <div class="photo_person col-md-3 col-sm-3" style="border: none !important; width: 230px !important; height: 230px !important;">
+                                <img class="photo_person_img" src="../../uploads/img/kafedra/fiziologiya/rasulova.jpg" alt="person" style="object-fit:cover !important;width: 100% !important;height: 100% !important;object-position: center !important;  ">
+                            </div>
+                            <div class="person_info col-md-9 col-sm-9">
+                                @if (item.ChildCategory.Pasitions != null && item.ChildCategory.Pasitions.Any())
+                                {
+                                    <h3>Pasitions:</h3>
+                                    <ul>
+                                        @foreach (var pasition in item.ChildCategory.Pasitions)
+                                        {
+                                            <li>@pasition.Name</li>
+                                        }
+                                    </ul>
+                                }
+                                <h3>@item.Name.</h3>
+                                <h4>  @item.Email </h4>
+                                <div class="info">
+                                    <div class="info_item">
+                                        <h5><i class="far fa-clock"></i> Reception time:</h5>&nbsp;
+                                        <p> Monday-15: 00-17: 00, Wednesday-15: 00 -17: 00</p>
+                                    </div>
+                                    <div class="info_item">
+                                        <h5><i class="fas fa-phone-alt"></i> Phone:</h5>&nbsp;
+                                        <p>+994 @item.Phonenumber</p>
+                                    </div>
+                                    <div class="info_item">
+                                        <h5><i class="far fa-envelope"></i>Email:</h5>&nbsp;
+                                        <p>@item.Email </p>
+                                    </div>
+                                </div>
+                                <div class="accordion" id="infoBlockAccordion">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="vazifalar">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne11" aria-expanded="true" aria-controls="collapseOne11">
+                                                Functions
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne11" class="accordion-collapse collapse" aria-labelledby="vazifalar"
+                                        data-bs-parent="#infoBlockAccordion">
+                                            <div class="accordion-body">
+                                                <p style="text-align:justify">
+                                                    <span style="font-size:14px">
+                                                        <span style="font-family:tahoma,geneva,sans-serif">
+                                                            @item.Description
+                                                        </span>
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="bio">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo11" aria-expanded="false" aria-controls="collapseTwo11">
+                                                Biography
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo11" class="accordion-collapse collapse" aria-labelledby="bio"
+                                        data-bs-parent="#infoBlockAccordion">
+                                            <div class="accordion-body">
+                                                <p style="text-align:justify"><span style="font-size:12pt"><span style="font-size:16px"><span style="font-family:tahoma,geneva,sans-serif">She</span></span></span><span style="font-size:16px"><span style="font-family:tahoma,geneva,sans-serif">&nbsp;was born in 1985 in Fergana district. In 2019, he worked as an assistant at the department in charge of academic affairs. In 2019, he participated in an international conference organized by the International Kazakh-Turkish University named after Ahmad Yassavi and was awarded a diploma of the 1st degree. Rasulova Moxidil Tursunalievna has been working as an independent researcher at the Tashkent Pediatric Medical Institute since 2018 and has been defending her Ph.D. in Biology since 2020. By the order of the Fergana branch of the Tashkent Medical Academy dated 18.08 2020 No 282 &quot;Reorganization of departments&quot; was appointed head of the Department of Normal and Pathological Physiology. From 2021 he is the Deputy Dean for Academic Affairs of the Faculty of Medicine, from 2022 he is the Dean of the Faculty of Medicine. Published articles and theses in more than 60 international and local journals, as well as 1 textbook, Scopus has 3 articles, 2 textbooks, 5 manuals, 1 monograph, and more than 30 scientific articles and theses.</span></span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            }
+            }
+        else
+            {
+                <p>SelectedChildCategory is null</p>
+           
+            }
+         
+    </main>
+</section>
+<section class="usefull ">
+    <div class="container">
+        <h2 class="py-2" style="color: #000064">Useful resources</h2>
+        <div class="owl-carousel" id="use-carousel">
+            <a href="https://ssv.uz/uz" class="use-item">
+                <img src="../../uploads/img/logo/%d0%91%d0%b5%d0%b7%20%d0%bd%d0%b0%d0%b7%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f.html" alt="">
+                <h3 style="color: #000064">Ministry of Health of the Republic of Uzbekistan</h3>
+            </a>
+            <a href="https://president.uz/uz" class="use-item">
+                <img src="../../uploads/img/useful/prezident_sayt.png" alt="">
+                <h3 style="color: #000064">O'zbekiston Respublikasi Prezidenti</h3>
+            </a>
+            <a href="https://lex.uz/" class="use-item">
+                <img src="../../uploads/img/useful/lex.uz.png" alt="">
+                <h3 style="color: #000064">O`ZBEKISTON RESPUBLIKASI qonun hujjatlari ma'lumotlar bazasi</h3>
+            </a>
+            <a href="https://gov.uz/uz" class="use-item">
+                <img src="../../uploads/img/useful/gov_uz.png" alt="">
+                <h3 style="color: #000064">O`ZBEKISTON RESPUBLIKASI hukumat portali</h3>
+            </a>
+            <a href="https://edu.uz/uz" class="use-item">
+                <img src="../../uploads/img/logo/logo.html" alt="">
+                <h3 style="color: #000064">O`ZBEKISTON RESPUBLIKASI Oliy va o`rta maxsus ta'lim vazirligi</h3>
+            </a>
+        </div>
+    </div>
+</section>

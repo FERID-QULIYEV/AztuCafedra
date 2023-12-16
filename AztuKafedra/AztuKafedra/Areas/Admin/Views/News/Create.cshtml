@@ -1,0 +1,36 @@
+﻿@model NewVM
+<div class="container">
+    <div class="card p-4">
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Title"></label>
+                <input asp-for="Title" class="form-control">
+                <span asp-validation-for="Title" class="text-danger"></span>
+
+                <label asp-for="Description"></label>
+                <input asp-for="Description" class="form-control">
+                <span asp-validation-for="Description" class="text-danger"></span>
+
+                <label asp-for="Photo"></label>
+                <input asp-for="Photo" class="form-control">
+                <span asp-validation-for="Photo" class="text-danger"></span>
+
+                <div class="form-group">
+                    <label asp-for="ChildCategoryId"></label>
+                    <select asp-for="ChildCategoryId" class="form-control">
+                        <option value="">Seçiniz</option>
+                        @if (ViewBag.NEWS != null)
+                        {
+                            foreach (SelectListItem product in ViewBag.NEWS)
+                            {
+                                <option value="@product.Value">@product.Text</option>
+                            }
+                        }
+                    </select>
+                    <span asp-validation-for="ChildCategory"></span>
+                </div>
+            </div>
+            <button class="btn btn-success" type="submit">Submit</button>
+        </form>
+    </div>
+</div>
