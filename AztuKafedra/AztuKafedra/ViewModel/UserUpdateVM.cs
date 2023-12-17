@@ -1,21 +1,21 @@
-﻿using AztuKafedra.Models.BaseId;
+﻿using AztuKafedra.Models;
 using System.ComponentModel.DataAnnotations;
 
-namespace AztuKafedra.Models
+namespace AztuKafedra.ViewModel
 {
-    public class User:Base
-    { 
+    public class UserUpdateVM
+    {
         public string Name { get; set; }
         [Required]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
+        [Required]
+        [DataType(DataType.PhoneNumber)]
         public string Phonenumber { get; set; }
-        public string ImagePath { get; set; }
+        public string Photo { get; set; }
         public string Description { get; set; }
 
-         public int ChildCategoryId { get; set; }
+        public int ChildCategoryId { get; set; }
         public ChildCategory ChildCategory { get; set; }
-        // PasitionId için dış anahtar, CASCADE silme yolu kaldırıldı
-    
     }
 }

@@ -1,0 +1,32 @@
+﻿@model IEnumerable<User>
+<div class="container">
+    <a class="btn btn-primary" asp-action="Create">Create</a>
+    <table class="table table-bordered table-responsive">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>ImagePath</th>
+                <th>Description</th>
+                <th>Childname</th>
+                <th>Phonenumber</th>
+                <th>Datetime</th>
+                <th colspan="2">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in (Model ?? new List<User>()))
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td> <img src="~/image/UserImage/@item.ImagePath" /></td>
+                    <td>@item.Description</td>
+                    <td>@item.ChildCategory.Name</td>
+                    <td>@item.Phonenumber</td>
+                    <td>@item.DateTime</td>
+                    <td><a class="btn btn-warning" asp-action="Update" asp-route-id="@item.Id">Update</a></td>
+                    <td><a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

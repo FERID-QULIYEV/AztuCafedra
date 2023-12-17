@@ -49,9 +49,8 @@ namespace AztuKafedra.Areas.Admin.Controllers
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
-        public async Task<IActionResult> Update(int? id)
+        public async Task<IActionResult> Update()
         {
-            Slider slider= await _context.Sliders.FindAsync(id);
             SliderUpdateVM updateVM = new SliderUpdateVM()
             {
             };

@@ -9,7 +9,7 @@ namespace AztuKafedra.ViewModel
         public List<BigParentsCategory>? BigParentsCategories { get; set; }
         public ChildCategory? SelectedChildCategory { get; set; }
         public List<User>? Users { get; set; }   
-        public List<Pasition>? Pasitions { get; set; }
+        public List<PasitionVM>? Pasitions { get; set; }
         public List<Slider>? Sliders { get; set; }
         public List<News> News { get; set; }
     }

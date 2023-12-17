@@ -21,6 +21,7 @@
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="wwwroot\image\ImageSlider\" />
     <Folder Include="wwwroot\image\ChildImage\" />
+    <Folder Include="wwwroot\image\UserImage\" />
     <Folder Include="wwwroot\image\News\" />
   </ItemGroup>
 

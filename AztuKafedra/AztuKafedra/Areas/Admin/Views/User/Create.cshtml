@@ -1,0 +1,44 @@
+﻿@model UserVM
+<div class="container">
+    <div class="card p-4">
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control">
+                <span asp-validation-for="Name" class="text-danger"></span>
+
+                <label asp-for="Photo"></label>
+                <input asp-for="Photo" class="form-control">
+                <span asp-validation-for="Photo" class="text-danger"></span>
+
+                <label asp-for="Description"></label>
+                <input asp-for="Description" class="form-control">
+                <span asp-validation-for="Description" class="text-danger"></span>
+
+                <label asp-for="Email"></label>
+                <input asp-for="Email" class="form-control">
+                <span asp-validation-for="Email" class="text-danger"></span>
+
+                <label asp-for="Phonenumber"></label>
+                <input asp-for="Phonenumber" class="form-control">
+                <span asp-validation-for="Phonenumber" class="text-danger"></span>
+
+                <div class="form-group">
+                    <label asp-for="ChildCategoryId"></label>
+                    <select asp-for="ChildCategoryId" class="form-control">
+                        <option value="">Seçiniz</option>
+                        @if (ViewBag.Users != null)
+                        {
+                            foreach (SelectListItem product in ViewBag.Users)
+                            {
+                                    <option value="@product.Value">@product.Text</option>
+                            }
+                        }
+                    </select>
+                    <span asp-validation-for="ChildCategoryId"></span>
+                </div>
+                <button class="btn btn-success" type="submit">Submit</button>
+        </form>
+    </div>
+</div>

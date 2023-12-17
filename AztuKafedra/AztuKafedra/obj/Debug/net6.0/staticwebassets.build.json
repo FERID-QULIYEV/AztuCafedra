@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lVA8dh4lxChmEHIwHiFk31opPTEcbl4dsReQm9IwGWQ=",
+  "Hash": "K863OWBrzhoo5eauJgHF6Uzzcm8rFgl06TGLoeGNBG0=",
   "Source": "AztuKafedra",
   "BasePath": "_content/AztuKafedra",
   "Mode": "Default",
@@ -2686,23 +2686,6 @@
       "OriginalItemSpec": "wwwroot\\image\\ChildImage\\8bb6007d-0ea7-43bf-a706-cefb7bb14c58Lighting2.jfif"
     },
     {
-      "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ChildImage\\c1b335de-1a12-4df8-99f5-1b78749c8bb9Lighting.jpg",
-      "SourceId": "AztuKafedra",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\",
-      "BasePath": "_content/AztuKafedra",
-      "RelativePath": "image/ChildImage/c1b335de-1a12-4df8-99f5-1b78749c8bb9Lighting.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\ChildImage\\c1b335de-1a12-4df8-99f5-1b78749c8bb9Lighting.jpg"
-    },
-    {
       "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ChildImage\\c7881d24-fcc5-40dd-aa39-fe5aa0a989efwheel category.jfif",
       "SourceId": "AztuKafedra",
       "SourceType": "Discovered",
@@ -2737,6 +2720,23 @@
       "OriginalItemSpec": "wwwroot\\image\\ChildImage\\d4cb7e81-8060-4ff8-ab1f-75809c464996Slider.jpg"
     },
     {
+      "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ChildImage\\d520feb9-20ad-4226-8088-8ac78c65f7e3IT.jpg",
+      "SourceId": "AztuKafedra",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\",
+      "BasePath": "_content/AztuKafedra",
+      "RelativePath": "image/ChildImage/d520feb9-20ad-4226-8088-8ac78c65f7e3IT.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\ChildImage\\d520feb9-20ad-4226-8088-8ac78c65f7e3IT.jpg"
+    },
+    {
       "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ChildImage\\e449bd7a-7022-4cd7-9f37-e88169102a76wheel1.jpg",
       "SourceId": "AztuKafedra",
       "SourceType": "Discovered",
@@ -2752,6 +2752,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\ChildImage\\e449bd7a-7022-4cd7-9f37-e88169102a76wheel1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ImageSlider\\2a964afb-c325-404a-b532-a36b083758a0wheel1.jpg",
+      "SourceId": "AztuKafedra",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\",
+      "BasePath": "_content/AztuKafedra",
+      "RelativePath": "image/ImageSlider/2a964afb-c325-404a-b532-a36b083758a0wheel1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\ImageSlider\\2a964afb-c325-404a-b532-a36b083758a0wheel1.jpg"
     },
     {
       "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ImageSlider\\3d03191c-bbd3-4652-9c2e-4627059493adInformation-Technology.webp",
@@ -2803,23 +2820,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\ImageSlider\\c4ac6fce-d9cf-4704-8ad2-2038e941e3dbSlider.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ImageSlider\\dc454b40-0736-427a-8079-6d86c3a7d85bSlider.jpg",
-      "SourceId": "AztuKafedra",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\",
-      "BasePath": "_content/AztuKafedra",
-      "RelativePath": "image/ImageSlider/dc454b40-0736-427a-8079-6d86c3a7d85bSlider.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\ImageSlider\\dc454b40-0736-427a-8079-6d86c3a7d85bSlider.jpg"
     },
     {
       "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\News\\62b1ba5a-382d-4108-a5f1-e3b70ced6b07Lighting2.jfif",
