@@ -2,10 +2,12 @@
 using AztuKafedra.Models;
 using AztuKafedra.Utilities;
 using AztuKafedra.ViewModel;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Drawing.Drawing2D;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace AztuKafedra.Areas.Admin.Controllers
 {
@@ -41,6 +43,7 @@ namespace AztuKafedra.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(ChildVM childVM)
         {
+
             if (!childVM.Photo.CheckContentType("image/"))
             {
                 ModelState.AddModelError("Photo", $"{childVM.Photo.FileName} Sekil Tipinde olmalidir ");
@@ -63,6 +66,7 @@ namespace AztuKafedra.Areas.Admin.Controllers
 
         public async Task<IActionResult> Update(int? id)
         {
+            ChildCategory child = await _context.ChildCategory.FindAsync(id);
             List<ParentCategory> Parent = _context.Parentcategory.Include(m => m.BigParentsCategory).ToList();
             List<SelectListItem> Select = Parent.Select(m => new SelectListItem
             {
@@ -70,29 +74,106 @@ namespace AztuKafedra.Areas.Admin.Controllers
                 Text = $"{m.Name} - {m.BigParentsCategory.Name}"
             }).ToList();
 
-            ViewBag.Child = Select;
-            if (id == null || id == 0) return BadRequest();
-            ChildCategory child = _context.ChildCategory.Find(id);
-            if (child is null) return NotFound();
-            return View(child);
+            ViewBag.Childs = Select;
+            ChildUpdateVM updateVM = new ChildUpdateVM()
+            {
+                Id = child.Id,
+                Name = child.Name,
+                Title=child.Title,
+                Description = child.Description,
+                ParentCategoryId=child.ParentCategoryId,
+            };
+
+            return View("Update", updateVM);
         }
         [HttpPost]
-        public async Task<IActionResult> Update(int? id, ChildCategory childCategory)
+        public async Task<IActionResult> Update(ChildUpdateVM updateVM)
         {
-            if (id == null || id == 0 || id != childCategory.Id || childCategory is null) return BadRequest();
-            ChildCategory exist = _context.ChildCategory.Find(childCategory.Id);
-            exist.Name = childCategory.Name;
-            exist.Title = childCategory.Title;
-            exist.Description = childCategory.Description;
-            exist.ParentCategoryId = childCategory.ParentCategoryId;
-            _context.SaveChanges();
+            List<ParentCategory> Parent = _context.Parentcategory.Include(m => m.BigParentsCategory).ToList();
+            List<SelectListItem> Select = Parent.Select(m => new SelectListItem
+            {
+                Value = m.Id.ToString(),
+                Text = $"{m.Name} - {m.BigParentsCategory.Name}"
+            }).ToList();
+
+            ViewBag.Childs = Select;
+            if (!updateVM.Photo.ContentType.Contains("image/"))
+            {
+                ModelState.AddModelError("Photo", $"{updateVM.Photo.FileName} Şekil Tipinde Olmalıdır");
+                ViewBag.Childs = await _context.ChildCategory
+                    .Select(p => new SelectListItem
+                    {
+                        Value = p.Id.ToString(),
+                        Text = p.Name
+                    })
+                    .ToListAsync();
+
+                return View(updateVM);
+            }
+
+            if (!updateVM.Photo.CheckFileSize(1800))
+            {
+                ModelState.AddModelError("Photo", $"{updateVM.Photo.FileName} - 200kb'dan Fazla Olamaz");
+                ViewBag.Childs = await _context.ChildCategory
+                    .Select(p => new SelectListItem
+                    {
+                        Value = p.Id.ToString(),
+                        Text = p.Name
+                    })
+                    .ToListAsync();
+
+                return View(updateVM);
+            }
+
+            ChildCategory child = await _context.ChildCategory.FindAsync(updateVM.Id);
+
+            if (child == null)
+            {
+                return NotFound();
+            }
+
+            string rootPath = Path.Combine(_env.WebRootPath, "image", "ChildImage");
+            string oldFilePath = Path.Combine(rootPath, child.ImagePath);
+
+            if (System.IO.File.Exists(oldFilePath))
+            {
+                System.IO.File.Delete(oldFilePath);
+            }
+
+            string root = Path.Combine(_env.WebRootPath, "image", "ChildImage");
+            string fileName = await updateVM.Photo.SaveAsync(root);
+
+            using (FileStream fileStream = new FileStream(fileName, FileMode.Create))
+            {
+                await updateVM.Photo.CopyToAsync(fileStream);
+            }
+            child.Name = updateVM.Name;
+            child.ImagePath = fileName;
+            child.Title = updateVM.Title;
+            child.Description = updateVM.Description;
+            child.ParentCategoryId=updateVM.ParentCategoryId;
+            await _context.SaveChangesAsync();
+
             return RedirectToAction(nameof(Index));
         }
 
         public async Task<IActionResult> Delete(int? id)
         {
             if (id is null) return BadRequest();
-            ChildCategory child= _context.ChildCategory.Find(id);
+            ChildCategory child = await _context.ChildCategory.FindAsync(id);
+
+            if (child == null)
+            {
+                return NotFound();
+            }
+
+            string rootPath = Path.Combine(_env.WebRootPath, "image", "ChildImage");
+            string oldFilePath = Path.Combine(rootPath, child.ImagePath);
+
+            if (System.IO.File.Exists(oldFilePath))
+            {
+                System.IO.File.Delete(oldFilePath);
+            }
             if (child is null) return NotFound();
             _context.ChildCategory.Remove(child);
             _context.SaveChanges();

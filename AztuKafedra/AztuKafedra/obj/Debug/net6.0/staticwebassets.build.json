@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2glTZ6hFrwhDy/B8/GW3H0Ln3rESlt6RCfDiuk9NBv0=",
+  "Hash": "lVA8dh4lxChmEHIwHiFk31opPTEcbl4dsReQm9IwGWQ=",
   "Source": "AztuKafedra",
   "BasePath": "_content/AztuKafedra",
   "Mode": "Default",
@@ -2618,6 +2618,40 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ChildImage\\5d19fccf-bc43-41ba-9d24-12557b836df9Wheel.jfif",
+      "SourceId": "AztuKafedra",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\",
+      "BasePath": "_content/AztuKafedra",
+      "RelativePath": "image/ChildImage/5d19fccf-bc43-41ba-9d24-12557b836df9Wheel.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\ChildImage\\5d19fccf-bc43-41ba-9d24-12557b836df9Wheel.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ChildImage\\655fbc96-d453-4ff4-9773-d250f01df965IT.jpg",
+      "SourceId": "AztuKafedra",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\",
+      "BasePath": "_content/AztuKafedra",
+      "RelativePath": "image/ChildImage/655fbc96-d453-4ff4-9773-d250f01df965IT.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\ChildImage\\655fbc96-d453-4ff4-9773-d250f01df965IT.jpg"
+    },
+    {
       "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ChildImage\\701f5c0e-d286-4a35-996c-69e87251053bSlider.jpg",
       "SourceId": "AztuKafedra",
       "SourceType": "Discovered",
@@ -2635,6 +2669,23 @@
       "OriginalItemSpec": "wwwroot\\image\\ChildImage\\701f5c0e-d286-4a35-996c-69e87251053bSlider.jpg"
     },
     {
+      "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ChildImage\\8bb6007d-0ea7-43bf-a706-cefb7bb14c58Lighting2.jfif",
+      "SourceId": "AztuKafedra",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\",
+      "BasePath": "_content/AztuKafedra",
+      "RelativePath": "image/ChildImage/8bb6007d-0ea7-43bf-a706-cefb7bb14c58Lighting2.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\ChildImage\\8bb6007d-0ea7-43bf-a706-cefb7bb14c58Lighting2.jfif"
+    },
+    {
       "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ChildImage\\c1b335de-1a12-4df8-99f5-1b78749c8bb9Lighting.jpg",
       "SourceId": "AztuKafedra",
       "SourceType": "Discovered",
@@ -2650,6 +2701,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\ChildImage\\c1b335de-1a12-4df8-99f5-1b78749c8bb9Lighting.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ChildImage\\c7881d24-fcc5-40dd-aa39-fe5aa0a989efwheel category.jfif",
+      "SourceId": "AztuKafedra",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\",
+      "BasePath": "_content/AztuKafedra",
+      "RelativePath": "image/ChildImage/c7881d24-fcc5-40dd-aa39-fe5aa0a989efwheel category.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\ChildImage\\c7881d24-fcc5-40dd-aa39-fe5aa0a989efwheel category.jfif"
     },
     {
       "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ChildImage\\d4cb7e81-8060-4ff8-ab1f-75809c464996Slider.jpg",
@@ -2686,12 +2754,12 @@
       "OriginalItemSpec": "wwwroot\\image\\ChildImage\\e449bd7a-7022-4cd7-9f37-e88169102a76wheel1.jpg"
     },
     {
-      "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ChildImage\\f03391bf-4337-464f-ad19-5a36c7b45a21car accessorie.jpg",
+      "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ImageSlider\\3d03191c-bbd3-4652-9c2e-4627059493adInformation-Technology.webp",
       "SourceId": "AztuKafedra",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\",
       "BasePath": "_content/AztuKafedra",
-      "RelativePath": "image/ChildImage/f03391bf-4337-464f-ad19-5a36c7b45a21car accessorie.jpg",
+      "RelativePath": "image/ImageSlider/3d03191c-bbd3-4652-9c2e-4627059493adInformation-Technology.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2700,15 +2768,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\ChildImage\\f03391bf-4337-464f-ad19-5a36c7b45a21car accessorie.jpg"
+      "OriginalItemSpec": "wwwroot\\image\\ImageSlider\\3d03191c-bbd3-4652-9c2e-4627059493adInformation-Technology.webp"
     },
     {
-      "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ImageSlider\\670ca809-e31b-4517-a68b-3a66ab99270aSlider.jpg",
+      "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ImageSlider\\aca9172b-cb76-4bb0-b7e4-b1b372e1d011IT.jpg",
       "SourceId": "AztuKafedra",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\",
       "BasePath": "_content/AztuKafedra",
-      "RelativePath": "image/ImageSlider/670ca809-e31b-4517-a68b-3a66ab99270aSlider.jpg",
+      "RelativePath": "image/ImageSlider/aca9172b-cb76-4bb0-b7e4-b1b372e1d011IT.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2717,7 +2785,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\ImageSlider\\670ca809-e31b-4517-a68b-3a66ab99270aSlider.jpg"
+      "OriginalItemSpec": "wwwroot\\image\\ImageSlider\\aca9172b-cb76-4bb0-b7e4-b1b372e1d011IT.jpg"
     },
     {
       "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\ImageSlider\\c4ac6fce-d9cf-4704-8ad2-2038e941e3dbSlider.jpg",
@@ -2803,6 +2871,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\News\\9c006cb2-67e1-4af0-bf14-1b383a52d675wheel category.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\image\\News\\fd23559c-c51e-479f-82e7-d3f57eaae893Information-Technology.webp",
+      "SourceId": "AztuKafedra",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\",
+      "BasePath": "_content/AztuKafedra",
+      "RelativePath": "image/News/fd23559c-c51e-479f-82e7-d3f57eaae893Information-Technology.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\News\\fd23559c-c51e-479f-82e7-d3f57eaae893Information-Technology.webp"
     },
     {
       "Identity": "C:\\Users\\R\\Desktop\\AztuCafedra\\AztuKafedra\\AztuKafedra\\wwwroot\\js\\site.js",

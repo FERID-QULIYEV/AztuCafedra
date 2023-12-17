@@ -4,9 +4,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace AztuKafedra.ViewModel
 {
-    public class ChildVM:Base
+    public class ChildUpdateVM:Base
     {
-        public int Id { get; set; }
+
         [Required, MaxLength(30)]
         public string? Name { get; set; }
         public IFormFile Photo { get; set; }
@@ -16,6 +16,5 @@ namespace AztuKafedra.ViewModel
         public string Description { get; set; }
         public int ParentCategoryId { get; set; }
         public ParentCategory ParentCategory { get; set; }
-        //public int BigParentsCategoryId { get; set; }
     }
 }
