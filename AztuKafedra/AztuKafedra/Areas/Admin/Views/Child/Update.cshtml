@@ -1,0 +1,47 @@
+﻿@model ChildCategory
+<div class="container">
+    <div class="card p-4">
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control">
+                <span asp-validation-for="Name" class="text-danger"></span>
+
+                <label asp-for="ImagePath"></label>
+                <input asp-for="ImagePath" class="form-control">
+                <span asp-validation-for="ImagePath" class="text-danger"></span>
+
+                <label asp-for="Description"></label>
+                <input asp-for="Description" class="form-control">
+                <span asp-validation-for="Description" class="text-danger"></span>
+
+                <label asp-for="Title"></label>
+                <input asp-for="Title" class="form-control">
+                <span asp-validation-for="Title" class="text-danger"></span>
+
+                <div class="form-group">
+                    <label asp-for="ParentCategoryId"></label>
+                    <select asp-for="ParentCategoryId" class="form-control">
+                        <option value="">Seçiniz</option>
+                        @if (ViewBag.Child != null)
+                        {
+                            foreach (SelectListItem product in ViewBag.Child)
+                            {
+                                var modelId = Convert.ToInt32(product.Value);
+                                var models = ViewBag.Parent as List<ParentCategory>;
+                                var model = models?.FirstOrDefault(m => m.Id == modelId);
+
+
+                                var parentCategoryName = model != null && model.BigParentsCategory != null ? model.BigParentsCategory.Name : string.Empty;
+
+                                <option value="@product.Value">@product.Text - @parentCategoryName</option>
+                            }
+                        }
+                    </select>
+                    <span asp-validation-for="ParentCategoryId"></span>
+                </div>
+                <button class="btn btn-success" type="submit">Submit</button>
+        </form>
+    </div>
+</div>

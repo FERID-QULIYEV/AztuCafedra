@@ -23,12 +23,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmlnUGFyZW50XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/R/Desktop/AztuCafedra/AztuKafedra/AztuKafedra/Areas/Admin/Views/BigParent/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmlnUGFyZW50XFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/R/Desktop/AztuCafedra/AztuKafedra/AztuKafedra/Areas/Admin/Views/Child/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hpbGRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/R/Desktop/AztuCafedra/AztuKafedra/AztuKafedra/Areas/Admin/Views/Child/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hpbGRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/R/Desktop/AztuCafedra/AztuKafedra/AztuKafedra/Areas/Admin/Views/Child/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hpbGRcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/R/Desktop/AztuCafedra/AztuKafedra/AztuKafedra/Areas/Admin/Views/News/Create.cshtml]
@@ -45,6 +53,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/R/Desktop/AztuCafedra/AztuKafedra/AztuKafedra/Areas/Admin/Views/Parent/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFyZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/R/Desktop/AztuCafedra/AztuKafedra/AztuKafedra/Areas/Admin/Views/Parent/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFyZW50XFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/R/Desktop/AztuCafedra/AztuKafedra/AztuKafedra/Areas/Admin/Views/Shared/_Layout.cshtml]

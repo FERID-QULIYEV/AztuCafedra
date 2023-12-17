@@ -1,8 +1,9 @@
 ﻿using AztuKafedra.Models;
+using AztuKafedra.Models.BaseId;
 
 namespace AztuKafedra.ViewModel
 {
-    public class ChildVM
+    public class ChildVM:Base
     {
         public string Name { get; set; }
         public IFormFile Photo { get; set; }

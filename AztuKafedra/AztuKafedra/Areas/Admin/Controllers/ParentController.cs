@@ -37,24 +37,52 @@ namespace AztuKafedra.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(ParentVM parentVM)
         {
-            if (!parentVM.Photo.CheckContentType("image/"))
-            {
-                ModelState.AddModelError("Photo", $"{parentVM.Photo.FileName} Sekil Tipinde olmalidir ");
-                return View();
-            }
-            if (!parentVM.Photo.CheckFileSize(1500))
-            {
-                ModelState.AddModelError("Photo", $"{parentVM.Photo.FileName} - 200kb dan Cox Olmaz");
-                return View();
-            }
-
-            string root = Path.Combine(_env.WebRootPath, "RootAllPictures", "img");
-            string fileName = await parentVM.Photo.SaveAsync(root);
-
             ParentCategory parent = new ParentCategory{ Name=parentVM.Name, DateTime=DateTime.Now, BigParentsCategoryId=parentVM.BigParentsCategoryId};
             _context.Parentcategory.Add(parent);
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Update(int? id)
+        {
+            List<BigParentsCategory> BigParents = _context.BigParentsCategory.ToList();
+            List<SelectListItem> BigparentiTEMs = BigParents.Select(p => new SelectListItem
+            {
+                Value = p.Id.ToString(),
+                Text = p.Name
+            }).ToList();
+
+            ViewBag.Parent = BigparentiTEMs;
+            if (id == null || id == 0) return BadRequest();
+            ParentCategory parent = _context.Parentcategory.Find(id);
+            if (parent is null) return NotFound();
+            return View(parent);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Update(int? id, ParentCategory Parent)
+        {
+            if (id == null || id == 0 || id != Parent.Id || Parent is null) return BadRequest();
+            ParentCategory exist = _context.Parentcategory.Find(Parent.Id);
+            exist.Name = Parent.Name;
+            exist.BigParentsCategoryId = Parent.BigParentsCategoryId;
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id is null) return BadRequest();
+            ParentCategory parent= _context.Parentcategory.Find(id);
+            if (parent is null) return NotFound();
+            //if (parent.ChildCategories is null)
+            //{
+            //    _context.Parentcategory.Remove(parent);
+            //}
+
+            _context.Parentcategory.Remove(parent);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+
         }
     }
 }

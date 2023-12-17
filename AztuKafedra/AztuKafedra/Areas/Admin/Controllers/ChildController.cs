@@ -60,7 +60,36 @@ namespace AztuKafedra.Areas.Admin.Controllers
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
-        public IActionResult Delete(int? id)
+
+        public async Task<IActionResult> Update(int? id)
+        {
+            List<ParentCategory> Parent = _context.Parentcategory.Include(m => m.BigParentsCategory).ToList();
+            List<SelectListItem> Select = Parent.Select(m => new SelectListItem
+            {
+                Value = m.Id.ToString(),
+                Text = $"{m.Name} - {m.BigParentsCategory.Name}"
+            }).ToList();
+
+            ViewBag.Child = Select;
+            if (id == null || id == 0) return BadRequest();
+            ChildCategory child = _context.ChildCategory.Find(id);
+            if (child is null) return NotFound();
+            return View(child);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Update(int? id, ChildCategory childCategory)
+        {
+            if (id == null || id == 0 || id != childCategory.Id || childCategory is null) return BadRequest();
+            ChildCategory exist = _context.ChildCategory.Find(childCategory.Id);
+            exist.Name = childCategory.Name;
+            exist.Title = childCategory.Title;
+            exist.Description = childCategory.Description;
+            exist.ParentCategoryId = childCategory.ParentCategoryId;
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Delete(int? id)
         {
             if (id is null) return BadRequest();
             ChildCategory child= _context.ChildCategory.Find(id);
